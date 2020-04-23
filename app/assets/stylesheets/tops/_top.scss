@@ -31,14 +31,23 @@ header {
     margin-right: calc(((100vw - 100%) / 2) * -1);
     background-color: #815492;
     ul {
-      color: white;
-      font-size: 18px;
       margin: 0 auto;
       li {
         width: 200px;
+        font-size: 18px;
         display: inline-block;
         text-align: center;
-        
+        a {
+          color: white;
+          text-decoration: none;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all  0.3s ease;
+        }
+        a:hover {
+        color: #0073C4;
+        }
       }
     }
   }
