@@ -3,56 +3,54 @@ header {
   height: 210px;
   width: 100vw;
   padding: 0 350px;
-  .container {
-    .top {
-      height: 30px;
-      padding-top: 15px;
-      h1 {
-        font-size: 10px;
-        line-height: 30px;
-        font-weight: normal;
-        letter-spacing: 0.05em;
-      }
+  .top {
+    height: 30px;
+    padding-top: 15px;
+    h1 {
+      font-size: 10px;
+      line-height: 30px;
+      font-weight: normal;
+      letter-spacing: 0.05em;
     }
-    .info {
-      height: 80px;
-      margin: 10px 0;
-      .logo {
-        float: left;
-        line-height: 80px;
-      }
-      .contact {
-        float: right;
-        font-size: 22px;
-        height: 100%;
-        padding-top: 10px;
-      }
-    }
-    .nav {
-      height: 80px;
+  }
+  .info {
+    height: 80px;
+    margin: 10px 0;
+    .logo {
+      float: left;
       line-height: 80px;
-      width: 100vw;
-      margin-left: calc(((100vw - 100%) / 2) * -1);
-      margin-right: calc(((100vw - 100%) / 2) * -1);
-      background-color: #815492;
-      ul {
-        margin: 0 auto;
-        li {
-          width: 200px;
-          font-size: 20px;
-          display: inline-block;
-          text-align: center;
-          a {
-            color: white;
-            text-decoration: none;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all  0.3s ease;
-          }
-          a:hover {
-          color: #0073C4;
-          }
+    }
+    .contact {
+      float: right;
+      font-size: 22px;
+      height: 100%;
+      padding-top: 10px;
+    }
+  }
+  .nav {
+    height: 80px;
+    line-height: 80px;
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
+    background-color: #815492;
+    ul {
+      margin: 0 auto;
+      li {
+        width: 200px;
+        font-size: 20px;
+        display: inline-block;
+        text-align: center;
+        a {
+          color: white;
+          text-decoration: none;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all  0.3s ease;
+        }
+        a:hover {
+        color: #0073C4;
         }
       }
     }
@@ -135,6 +133,46 @@ header {
             font-size: 15px;
           }
         }
+      }
+    }
+  }
+}
+
+/*topページの固定フッター*/
+footer {
+  height: 500px;
+  width: 100vw;
+  .bottom-hight {
+    height: 350px;
+    background-color: #f5f5f5;
+    width: 100%;
+    .inner {
+      margin: 0 30%;
+      padding: 50px 0;
+      h2 {
+
+      }
+      p {
+        font-weight: bold;
+        text-align: center;
+      }
+      .form {
+        display: flex;
+        .tel {
+          background-color: white;
+        }
+        .mail {
+          background-color: #b51700;
+        }
+      }
+    }
+  }
+  .bottom-row {
+    height: 150px;
+    background-color: #353535;
+    ul {
+      li {
+        display: inline-block;
       }
     }
   }
