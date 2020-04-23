@@ -77,18 +77,22 @@ header {
 }
 
 /*事業内容*/
-.container {
+.container-fluid {
   height: 800px;
-  margin: 50px auto;
-  .cont-title h1 {
-    height: 100px;
-    line-height: 100px;
+  width: 70%;
+  margin: 60px auto;
+  h2 {
+    font-size: 40px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
     font-weight: normal;
   }
   .row {
     display: flex;
-    width: 100%;
+    // width: 70%;
+    // margin: 0 auto;
+    margin-bottom: 70px;
     .business {
       img {
         width: 100%;
@@ -101,6 +105,28 @@ header {
       }
       p {
         font-weight: 300;
+      }
+    }
+  }
+  /*新着工事実績*/
+  h3 {
+    margin-bottom: 20px;
+  }
+  table {
+    tbody {
+      tr {
+        th {
+          span {
+            height: 30px;
+            line-height: 30px;
+            width: 50px;
+            text-align: center;
+            display: inline-block;
+            background-color: #0073C4;
+            color: #ffffff;
+            font-size: 15px;
+          }
+        }
       }
     }
   }

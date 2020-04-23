@@ -5,10 +5,10 @@
   <li><img src="top_setubi.jpg" alt="top_setubi"></li>
   <li><img src="top_tuusin.jpg" alt="top_tuusin"></li>
 </ul>
-<div class="container">
-  <div class="cont-title">
-    <h1>事業内容</h1>
-  <div>
+<div class="container-fluid">
+  <h2 class="cont-title">
+    事業内容
+  </h2>
   <div class="row">
     <div class="business col-sm-4">
       <img src="top_product_im04.jpg">
@@ -26,7 +26,26 @@
       <p>集合住宅向けインターネット環境設備 の導入に伴う調査、施工、構築までの一連の業務。その他テレビ配等の通信工事を行います。</p>
     </div>
   </div>
+  <h3 class="performance">
+    新着工事実績
+  </h3>
   <table class="table table-hover">
-  
+    <tbody>
+      <tr>
+        <th>2020年4月13日</th>
+        <th><span class="new">new</span></th>
+        <th><%= link_to "工事更新テスト", root_path %></th>
+      </tr>
+      <tr>
+        <th>2020年2月10日</th>
+        <th><span class="new">new</span></th>
+        <th><%= link_to "工事中国", root_path %></th>
+      </tr>
+      <tr>
+        <th>2020年2月10日</th>
+        <th><span class="new">new</span></th>
+        <th><%= link_to "工事情報日本", root_path %></th>
+      </tr>
+    </tbody>
   </table>
 </div>
