@@ -113,9 +113,16 @@ header {
     margin-bottom: 20px;
   }
   table {
+    
     tbody {
+      
       tr {
-        th {
+        border-top: solid 0.5px #ccc;
+        td {
+          float: left !important;
+          /*初期線を消している*/
+          border: none;
+          margin-right: 15px;
           span {
             height: 30px;
             line-height: 30px;
