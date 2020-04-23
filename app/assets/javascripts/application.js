@@ -16,8 +16,11 @@
 //= require turbolinks
 //= require_tree .
 
-$('.single-item').slick({
-  autoplay:true,
-  autoplaySpeed:5000,
-  dots:true,
+$(document).ready(function(){
+  $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+    dots:true,
+
+  });
 });
