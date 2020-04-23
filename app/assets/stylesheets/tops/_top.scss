@@ -52,3 +52,17 @@ header {
     }
   }
 }
+
+.single-item {
+  margin: 100px auto;
+  width: 80%;
+  img{
+    height: auto;
+    width: 100%;
+  }
+}
+/*slick setting*/
+.single-item-prev:before,
+.single-item-next:before {
+  color: #000;
+}
