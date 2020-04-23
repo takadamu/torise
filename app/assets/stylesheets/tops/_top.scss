@@ -1,11 +1,11 @@
 /*topページの固定ヘッダー*/
 header {
-  height: 170px;
+  height: 210px;
   width: 100vw;
   padding: 0 350px;
   .top {
     height: 30px;
-    padding-top: 10px;
+    padding-top: 15px;
     h1 {
       font-size: 10px;
       line-height: 30px;
@@ -14,20 +14,22 @@ header {
     }
   }
   .info {
-    height: 60px;
-    margin-bottom: 13px;
+    height: 80px;
+    margin: 10px 0;
     .logo {
       float: left;
-      line-height: 60px;
+      line-height: 80px;
     }
     .contact {
       float: right;
       font-size: 22px;
+      height: 100%;
+      padding-top: 10px;
     }
   }
   .nav {
-    height: 65px;
-    line-height: 65px;
+    height: 80px;
+    line-height: 80px;
     width: 100vw;
     margin-left: calc(((100vw - 100%) / 2) * -1);
     margin-right: calc(((100vw - 100%) / 2) * -1);
@@ -36,7 +38,7 @@ header {
       margin: 0 auto;
       li {
         width: 200px;
-        font-size: 18px;
+        font-size: 20px;
         display: inline-block;
         text-align: center;
         a {
@@ -57,7 +59,7 @@ header {
 
 /*topページスライド画像*/
 .slider {
-  margin: 15px auto;
+  margin: 30px auto;
   width: 85%;
   padding:7px;
   border:1px solid #ccc;
@@ -72,4 +74,34 @@ header {
 .slick-prev:before, .slick-next:before {
   color: rgb(66, 66, 66);
   font-size: 40px;
+}
+
+/*事業内容*/
+.container {
+  height: 800px;
+  margin: 50px auto;
+  .cont-title h1 {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: normal;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    .business {
+      img {
+        width: 100%;
+      }
+      h4 {
+        margin-top: 10px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+      }
+      p {
+        font-weight: 300;
+      }
+    }
+  }
 }
