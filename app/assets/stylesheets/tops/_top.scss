@@ -1,5 +1,5 @@
 header {
-  height: 300px;
+  height: 200px;
   width: 100vw;
   padding: 0 350px;
   .top {
@@ -12,14 +12,34 @@ header {
     }
   }
   .info {
-    height: 80px;
+    height: 60px;
+    margin-bottom: 10px;
     .logo {
       float: left;
-      line-height: 80px;
+      line-height: 60px;
     }
     .contact {
       float: right;
-      font-size: 24px;
+      font-size: 22px;
+    }
+  }
+  .nav {
+    height: 65px;
+    line-height: 65px;
+    width: 100vw;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
+    background-color: #815492;
+    ul {
+      color: white;
+      font-size: 18px;
+      margin: 0 auto;
+      li {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+        
+      }
     }
   }
 }
