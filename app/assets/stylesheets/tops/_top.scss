@@ -140,39 +140,69 @@ header {
 
 /*topページの固定フッター*/
 footer {
-  height: 500px;
+  height: 450px;
   width: 100vw;
   .bottom-hight {
-    height: 350px;
+    height: 320px;
     background-color: #f5f5f5;
     width: 100%;
-    .inner {
-      margin: 0 30%;
-      padding: 50px 0;
+    .top-inner {
+      height: 100%;
+      margin: 0 20%;
+      padding: 3% 0;
       h2 {
-
+        text-align: center;
+        color: #333333;
       }
       p {
         font-weight: bold;
         text-align: center;
       }
       .form {
+        height: 100px;
+        width: 100%;
         display: flex;
         .tel {
+          width: 50%;
+          text-align: center;
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0 15px;
           background-color: white;
         }
         .mail {
-          background-color: #b51700;
+          height: 100%;
+          width: 50%;
+          a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            margin: 0 15px;
+            background-color: #b51700;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+          }
         }
       }
     }
   }
   .bottom-row {
-    height: 150px;
+    height: 130px;
+    width: 100%;
     background-color: #353535;
-    ul {
-      li {
-        display: inline-block;
+    color: white;
+    .bottom-inner {
+      margin: 0 30%;
+      padding: 20px 0;
+      height: 130px;
+      ul {
+        li {
+          display: inline-block;
+        }
+      }
+      p {
+        text-align: center;
       }
     }
   }
