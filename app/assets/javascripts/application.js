@@ -17,9 +17,9 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', function(){
-    $('.slider').slick({
-      autoplay:true,
-      autoplaySpeed:5000,
-      dots:true,
+  $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+    dots:true,
   });
 });
