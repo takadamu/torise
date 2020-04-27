@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :services, only: [:index]
   resources :messages, only: [:index]
   resources :companies, only: [:index]
+  resources :electricities, only: [:index]
 end
