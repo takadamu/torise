@@ -17,3 +17,20 @@
 @import "companies";
 @import "messages";
 @import "electricities";
+
+/*ページ共通navbar*/
+.navbar {
+  height: 30px;
+  width: 100vw;
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-bottom: 30px;
+  ul {
+    height: 100%;
+    line-height: 100%;
+    li {
+      display: inline;
+      font-size: 15px;
+    }
+  }
+}
