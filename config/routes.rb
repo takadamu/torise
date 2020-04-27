@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :philosophies, only: [:index]
   resources :services, only: [:index]
   resources :messages, only: [:index]
+  resources :companies, only: [:index]
 end
