@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   resources :messages, only: [:index]
   resources :companies, only: [:index]
   resources :electricities, only: [:index]
+  resources :contacts, only: [:index]
 end

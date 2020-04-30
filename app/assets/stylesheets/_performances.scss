@@ -1,29 +1,16 @@
-.performances-main {
-  width: 100vw;
-  height: 650px;
-  padding: 0 20%;
-  h3 {
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    border-left: solid #815492 5px;
-    padding-left: 15px;
-    border-bottom: solid 1px;
-    margin-bottom: 40px;
-  }
-  .performances-details {
-    width: 100%;
-    height: 550px;
-    padding: 0 10px;
-    .details {
-      margin-bottom: 50px;
-      h5 {
-        text-decoration:underline;
-        text-decoration-color: black;
-      }
-      p {
-        font-weight: 300;
-      }
+/*作業項目のみ*/
+.performances-details {
+  width: 100%;
+  height: 550px;
+  padding: 0 10px;
+  .details {
+    margin-bottom: 50px;
+    h5 {
+      text-decoration:underline;
+      text-decoration-color: black;
+    }
+    p {
+      font-weight: 300;
     }
   }
 }
