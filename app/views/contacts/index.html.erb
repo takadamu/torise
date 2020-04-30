@@ -1,19 +1,33 @@
-<%= render 'tops/top' %>
+<p id="notice"><%= notice %></p>
 
-<div class="navbar">
-  <ul>
-    <li><%= link_to "HOME", root_path %></li>
-    <li>></li>
-    <li>お問い合わせ</li>
-  </ul>
-</div>
+<h1>Contacts</h1>
 
-<div class="main">
-  <h3 class="title">
-    お問い合わせ
-  </h3>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Subject</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
 
-</div>
+  <tbody>
+    <% @contacts.each do |contact| %>
+      <tr>
+        <td><%= contact.name %></td>
+        <td><%= contact.email %></td>
+        <td><%= contact.subject %></td>
+        <td><%= contact.content %></td>
+        <td><%= link_to 'Show', contact %></td>
+        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
+        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
-<%= render 'tops/bottom' %>
+<br>
+
+<%= link_to 'New Contact', new_contact_path %>
