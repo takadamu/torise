@@ -12,26 +12,30 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
+    <%= form.label :"お名前（必須）" %>
+    <br>
     <%= form.text_field :name %>
   </div>
 
   <div class="field">
-    <%= form.label :email %>
+    <%= form.label :"メールアドレス（必須）" %>
+    <br>
     <%= form.text_field :email %>
   </div>
 
   <div class="field">
-    <%= form.label :subject %>
+    <%= form.label :"題名" %>
+    <br>
     <%= form.text_field :subject %>
   </div>
 
   <div class="field">
-    <%= form.label :content %>
+    <%= form.label :"メッセージ本文" %>
+    <br>
     <%= form.text_area :content %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit :"送信"%>
   </div>
 <% end %>
