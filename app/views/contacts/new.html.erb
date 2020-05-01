@@ -1,5 +1,23 @@
-<h1>New Contact</h1>
+<%= render 'tops/top' %>
 
-<%= render 'form', contact: @contact %>
+<div class="navbar">
+  <ul>
+    <li><%= link_to "HOME", root_path %></li>
+    <li>></li>
+    <li>会社概要</li>
+  </ul>
+</div>
 
-<%= link_to 'Back', contacts_path %>
+<div class="main">
+  <h3 class="title">
+    会社概要
+  </h3>
+  
+  <%= render 'form', contact: @contact %>
+
+  <%= link_to 'Back', contacts_path %>
+
+</div>
+
+
+<%= render 'tops/bottom' %>
