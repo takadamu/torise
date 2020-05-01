@@ -1,3 +1,22 @@
-// Place all the styles related to the recruits controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+table {
+  margin-bottom: 30px;
+  tr {
+    border-bottom: solid 0.5px #b6b6b6;
+    margin-bottom: 10px;
+    th {
+      width: 100px;
+      height: 48px;
+      font-weight: 550;
+    }
+  }
+}
+
+.address {
+  p {
+    margin-bottom: 2px;
+  }
+  span {
+    color: red;
+    font-weight: bold;
+  }
+}
