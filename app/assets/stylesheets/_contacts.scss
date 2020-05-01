@@ -1,0 +1,21 @@
+.field{
+  margin-bottom: 10px;
+  label {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  input {
+    width: 400px;
+    height: 35px;
+  }
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
+}
+.actions{
+  input {
+    width: 80px;
+    height: 30px;
+  }
+}
