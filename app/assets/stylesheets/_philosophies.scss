@@ -1,5 +1,58 @@
+@mixin inner {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #000;
+}
+
 .philosophies {
   width: 100%;
-  height: 2000px;
-  background-color: white;
+  height: 2500px;
+  .inner1 {
+    @include inner;
+    img {
+      margin-bottom: 30px;
+    }
+  }
+  .inner2 {
+    @include inner;
+  }
+  .inner3 {
+    @include inner;
+  }
+  .inner4 {
+    @include inner;
+  }
+  .inner5 {
+    @include inner;
+  }
+  .inner6 {
+    @include inner;
+  }
+  .inner7 {
+    @include inner;
+  }
+  .inner8 {
+    @include inner;
+  }
+  .inner9 {
+    @include inner;
+  }
+
+  /*企業理念ページすべてのinner-titleに適用*/
+  .inner-title {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    margin-bottom: 0;
+    color: #a10000;
+  }
+  /*pに適用*/
+  p {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: YuGothic;
+  }
 }
