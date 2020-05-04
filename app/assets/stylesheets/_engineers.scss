@@ -1,0 +1,78 @@
+/*@mincludeはlectricities.scss内に記載*/
+
+.engineers-inner1 {
+  @include lectricities-inner;
+  .engineers-photo {
+    @include photo;
+    margin-left: 30px;
+    img {
+      width: 95%;
+    }
+  }
+  .right-cont {
+    @include cont;
+    margin-left: 30px;
+    .engineers-title {
+      @include electricities-title;
+      span {
+        @include electricities-span;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.engineers-inner2 {
+  @include lectricities-inner;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  .engineers-photo {
+    @include photo;
+    margin-right: 20px;
+    img {
+      width: 95%;
+    }
+  }
+  .left-cont {
+    @include cont;
+    margin-left: 30px;
+    margin-right: 30px;
+    .engineers-title {
+      @include electricities-title;
+      span {
+        @include electricities-span;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.engineers-inner3 {
+  @include lectricities-inner;
+  border: none;
+  margin-bottom: 40px;
+  .engineers-photo {
+    @include photo;
+    margin-left: 30px;
+    img {
+      width: 95%;
+    }
+  }
+  .right-cont {
+    @include cont;
+    margin-left: 30px;
+    .engineers-title {
+      @include electricities-title;
+      span {
+        @include electricities-span;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

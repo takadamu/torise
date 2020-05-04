@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   resources :companies, only: [:index]
   resources :electricities, only: [:index]
   resources :contacts, only: [:index]
+  resources :engineers, only: [:index]
 end
