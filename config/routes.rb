@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   resources :electricities, only: [:index]
   resources :contacts, only: [:index]
   resources :engineers, only: [:index]
+  resources :constructions, only: [:index]
 end
